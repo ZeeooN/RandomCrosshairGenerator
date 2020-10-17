@@ -1,0 +1,10 @@
+V:\GitRepos\RandomCrosshairGenerator\rcg_test\bin\Release\RCH_Generator.exe.config
+V:\GitRepos\RandomCrosshairGenerator\rcg_test\bin\Release\RCH_Generator.exe
+V:\GitRepos\RandomCrosshairGenerator\rcg_test\bin\Release\RCH_Generator.pdb
+V:\GitRepos\RandomCrosshairGenerator\rcg_test\obj\Release\rcg_test.csprojAssemblyReference.cache
+V:\GitRepos\RandomCrosshairGenerator\rcg_test\obj\Release\rcg_test.Form1.resources
+V:\GitRepos\RandomCrosshairGenerator\rcg_test\obj\Release\rcg_test.Properties.Resources.resources
+V:\GitRepos\RandomCrosshairGenerator\rcg_test\obj\Release\rcg_test.csproj.GenerateResource.cache
+V:\GitRepos\RandomCrosshairGenerator\rcg_test\obj\Release\rcg_test.csproj.CoreCompileInputs.cache
+V:\GitRepos\RandomCrosshairGenerator\rcg_test\obj\Release\RCH_Generator.exe
+V:\GitRepos\RandomCrosshairGenerator\rcg_test\obj\Release\RCH_Generator.pdb

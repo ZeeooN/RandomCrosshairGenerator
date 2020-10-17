@@ -23,7 +23,7 @@ namespace rcg_test
     public partial class Form1 : Form
     {
 		// File locations and naming
-    // If needed the file names can be changed here
+		// If needed the file names can be changed here
 		string CommandListFile = "Command_list.txt"; // The file that hold of the needed commands.
 		string RandomCrosshairFile = "RandomCrosshair/random_crosshair.txt"; // The file where all of the generated commands are going to be stored.
 		string CrosshairCfgFile = "RandomCrosshair/rCross.cfg"; // Cfg with all the generated commands.
@@ -70,7 +70,7 @@ namespace rcg_test
 			}
         }
 
-		public void CH_Generate()
+		private void CH_Generate()
 		{
 			OutputTextBox.ResetText();
 
@@ -130,10 +130,8 @@ namespace rcg_test
 				int StartPoints = 0; // For storing the location where a commands beigns.
 				string CommandGet = ""; // For Holding a command.
 
-				MyFunctions obj = new MyFunctions();
-
 				// Start of number finding and seperation
-				int sizeOfString = obj.StringSize(GetCrossCommands); // Gets the whole size of the copied file.
+				int sizeOfString = MyFunctions.StringSize(GetCrossCommands); // Gets the whole size of the copied file.
 				for (int i = 0; i < sizeOfString; i++)
 				{
 					if (GetCrossCommands[i] == ';')
@@ -149,7 +147,7 @@ namespace rcg_test
 						int firstLimit = 0;
 						int lastLimit = 50;
 
-						for (int j = 0; j < obj.StringSize(CommandGet); j++)
+						for (int j = 0; j < MyFunctions.StringSize(CommandGet); j++)
 						{
 							if (CommandGet[j] == 45 || (CommandGet[j] >= 48 && CommandGet[j] <= 57))
 							{
@@ -163,7 +161,7 @@ namespace rcg_test
 							}
 						}
 
-						for (int j = semPoint; j < obj.StringSize(CommandGet); j++)
+						for (int j = semPoint; j < MyFunctions.StringSize(CommandGet); j++)
 						{
 							if (CommandGet[j] >= 48 && CommandGet[j] <= 57)
 							{
@@ -271,7 +269,7 @@ namespace rcg_test
 
 	class MyFunctions
 	{
-		public int StringSize(string inputString) // Will return the size of a string
+		static public int StringSize(string inputString) // Will return the size of a string
 		{
 			int returnSize = 0;
 

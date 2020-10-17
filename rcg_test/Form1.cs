@@ -1,10 +1,10 @@
 ﻿/*
  *	Random Crosshair Generator with GUI
- *	
+ *
  *	Version: 1.1.2
- * 
+ *
  *	Made by: ZeoN
- * 
+ *
  */
 
 using System;
@@ -22,7 +22,8 @@ namespace rcg_test
 {
     public partial class Form1 : Form
     {
-		// File locations
+		// File locations and naming
+    // If needed the file names can be changed here
 		string CommandListFile = "Command_list.txt"; // The file that hold of the needed commands.
 		string RandomCrosshairFile = "RandomCrosshair/random_crosshair.txt"; // The file where all of the generated commands are going to be stored.
 		string CrosshairCfgFile = "RandomCrosshair/rCross.cfg"; // Cfg with all the generated commands.
@@ -249,7 +250,7 @@ namespace rcg_test
 		private void setTxtName_Click(object sender, EventArgs e)
 		{
 			RandomCrosshairFile = setTxtName.Text;
-			
+
 			fileTxtName.Text = RandomCrosshairFile;
 			fileCfgName.Text = CrosshairCfgFile;
 		}

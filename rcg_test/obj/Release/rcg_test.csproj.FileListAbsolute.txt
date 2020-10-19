@@ -8,3 +8,13 @@ V:\GitRepos\RandomCrosshairGenerator\rcg_test\obj\Release\rcg_test.csproj.Genera
 V:\GitRepos\RandomCrosshairGenerator\rcg_test\obj\Release\rcg_test.csproj.CoreCompileInputs.cache
 V:\GitRepos\RandomCrosshairGenerator\rcg_test\obj\Release\RCH_Generator.exe
 V:\GitRepos\RandomCrosshairGenerator\rcg_test\obj\Release\RCH_Generator.pdb
+G:\GitHub\RandomCrosshairGenerator\rcg_test\bin\Release\RCH_Generator.exe.config
+G:\GitHub\RandomCrosshairGenerator\rcg_test\bin\Release\RCH_Generator.exe
+G:\GitHub\RandomCrosshairGenerator\rcg_test\bin\Release\RCH_Generator.pdb
+G:\GitHub\RandomCrosshairGenerator\rcg_test\obj\Release\rcg_test.csprojAssemblyReference.cache
+G:\GitHub\RandomCrosshairGenerator\rcg_test\obj\Release\rcg_test.Form1.resources
+G:\GitHub\RandomCrosshairGenerator\rcg_test\obj\Release\rcg_test.Properties.Resources.resources
+G:\GitHub\RandomCrosshairGenerator\rcg_test\obj\Release\rcg_test.csproj.GenerateResource.cache
+G:\GitHub\RandomCrosshairGenerator\rcg_test\obj\Release\rcg_test.csproj.CoreCompileInputs.cache
+G:\GitHub\RandomCrosshairGenerator\rcg_test\obj\Release\RCH_Generator.exe
+G:\GitHub\RandomCrosshairGenerator\rcg_test\obj\Release\RCH_Generator.pdb

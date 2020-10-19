@@ -158,6 +158,7 @@ namespace rcg_test
 						float firstLimitF = 0;
 						float lastLimitF = 1;
 
+						//Gets the first limit
 						for (int j = 0; j < MyFunctions.StringSize(CommandGet); j++)
 						{
 							if (CommandGet[j] == 45 || (CommandGet[j] >= 48 && CommandGet[j] <= 57))
@@ -172,6 +173,7 @@ namespace rcg_test
 							}
 						}
 
+						//Gets the last limit
 						for (int j = semPoint; j < MyFunctions.StringSize(CommandGet); j++)
 						{
 							if (CommandGet[j] >= 48 && CommandGet[j] <= 57)
@@ -207,12 +209,14 @@ namespace rcg_test
 						Random rnd = new Random();
 						if (isFloat == true)
 						{
-							CommandGet = CommandHolder + " " + rnd.NextDouble() * (lastLimitF - firstLimitF) + ";\n"; // Will generate a random float number after the command.
+							// Will generate a random float number after the command.
+							CommandGet = CommandHolder + " " + rnd.NextDouble() * (lastLimitF - firstLimitF) + ";\n"; 
 						}
 
 						else
 						{
-							CommandGet = CommandHolder + " " + rnd.Next(firstLimitInt, lastLimitInt) + ";\n"; // Will generate a random int number after the command.
+							// Will generate a random int number after the command.
+							CommandGet = CommandHolder + " " + rnd.Next(firstLimitInt, lastLimitInt) + ";\n"; 
 						}
 
 						File.AppendAllText(RandomCrosshairFile, CommandGet); // Writes the generated commad to the file.

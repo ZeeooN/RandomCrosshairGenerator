@@ -1,7 +1,7 @@
 ﻿/*
  *	Random Crosshair Generator with GUI
  *
- *	Version: 1.1.2
+ *	Version: 1.2
  *
  *	Made by: ZeoN
  *

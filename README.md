@@ -1,2 +1,2 @@
 # RandomCrosshairGenerator
-CS:GO Random crosshair generator
+Random crosshair generator for CS:GO

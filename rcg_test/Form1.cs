@@ -24,8 +24,8 @@ namespace rcg_test
     {
 		// File locations and naming
 		// If needed the file names can be changed here
-		string CommandListFile = "Command_list.txt"; // The file that hold of the needed commands.
-		string RandomCrosshairFile = "RandomCrosshair/random_crosshair.txt"; // The file where all of the generated commands are going to be stored.
+		string CommandListFile = "Command_list.txt"; // The file that holds all the needed commands.
+		string RandomCrosshairFile = "RandomCrosshair/random_crosshair.txt"; // The file where all of the generated commands are going to be appended to.
 		string CrosshairCfgFile = "RandomCrosshair/rCross.cfg"; // Cfg with all the generated commands.
 
 		public Form1()

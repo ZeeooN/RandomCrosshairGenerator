@@ -45,23 +45,20 @@ namespace rcg_test
         {
 			if (String.IsNullOrEmpty(fileTxtName.Text))
 			{
-				OutputTextBox.AppendText("<REPORTER>: The file path and name box is empty.");
-				OutputTextBox.AppendText("<REPORTER>: To work fill out the box.");
+				OutputTextBox.AppendText("<REPORTER>: The txt path box is empty.");
+				OutputTextBox.AppendText("<REPORTER>: Please add the txt path.");
 			}
 
 			else if (String.IsNullOrEmpty(fileCfgName.Text))
 			{
-				OutputTextBox.AppendText("<REPORTER>: The cfg path and name box is empty.");
-				OutputTextBox.AppendText("<REPORTER>: To work fill out the box.");
+				OutputTextBox.AppendText("<REPORTER>: The cfg path box is empty.");
+				OutputTextBox.AppendText("<REPORTER>: Please add the cfg path.");
 			}
 
 			else if (String.IsNullOrEmpty(fileTxtName.Text) && String.IsNullOrEmpty(fileCfgName.Text))
 			{
-				OutputTextBox.AppendText("<REPORTER>: The file path and name box is empty.");
-				OutputTextBox.AppendText("<REPORTER>: To work fill out the box.");
-
-				OutputTextBox.AppendText("<REPORTER>: The cfg path and name box is empty.");
-				OutputTextBox.AppendText("<REPORTER>: To work fill out the box.");
+				OutputTextBox.AppendText("<REPORTER>: The txt and cfg path boxes are empty.");
+				OutputTextBox.AppendText("<REPORTER>: Please add both paths.");
 			}
 
 			else
